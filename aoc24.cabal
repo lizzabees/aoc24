@@ -22,11 +22,11 @@ executable day2
     main-is:          Day2.hs
     build-depends:    parsec
 
--- executable day3
---     import:           base
---     main-is:          Day3.hs
---     build-depends:    split
--- 
+executable day3
+    import:           base
+    main-is:          Day3.hs
+    build-depends:    parsec
+
 -- executable day4
 --     import:           base
 --     main-is:          Day4.hs
